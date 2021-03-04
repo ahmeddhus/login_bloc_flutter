@@ -77,7 +77,7 @@ class _LoginScreenState extends State<LoginScreen> {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           SizedBox(
-            height: 50.0,
+            height: 16.0,
           ),
           Container(
             child: Image.asset(
@@ -86,7 +86,7 @@ class _LoginScreenState extends State<LoginScreen> {
             ),
           ),
           SizedBox(
-            height: 80.0,
+            height: 32.0,
           ),
           ClipRRect(
             borderRadius: BorderRadius.only(
@@ -239,7 +239,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           ),
                         ),
                   SizedBox(
-                    height: 16.0,
+                    height: 32.0,
                   ),
                   Row(
                     crossAxisAlignment: CrossAxisAlignment.center,
